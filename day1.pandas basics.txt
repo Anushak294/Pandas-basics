@@ -1,0 +1,26 @@
+# Day 1: Pandas Basics - Series and DataFrame
+
+# Import pandas
+import pandas as pd
+
+
+# Series (1D Data)
+
+data = [10, 20, 30]
+series = pd.Series(data)
+
+print("Series Output:")
+print(series)
+
+
+# DataFrame (2D Data)
+
+data = {
+    "Name": ["A", "B", "C"],
+    "Age": [20, 21, 22]
+}
+
+df = pd.DataFrame(data)
+
+print("\nDataFrame Output:")
+print(df)
