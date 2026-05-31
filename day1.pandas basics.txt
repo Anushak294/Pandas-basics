@@ -3,7 +3,6 @@
 # Import pandas
 import pandas as pd
 
-
 # Series (1D Data)
 
 data = [10, 20, 30]
@@ -11,8 +10,6 @@ series = pd.Series(data)
 
 print("Series Output:")
 print(series)
-
-
 
 # DataFrame (2D Data)
 
@@ -25,3 +22,5 @@ df = pd.DataFrame(data)
 
 print("\nDataFrame Output:")
 print(df)
+
+
